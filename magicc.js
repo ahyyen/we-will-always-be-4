@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(windowWidth, 2.5*windowHeight);
+  createCanvas(2*windowWidth, 3*windowHeight);
   frameRate(20);
  // p5canvas.id("inky");
 }
