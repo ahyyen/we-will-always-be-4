@@ -1,0 +1,218 @@
+h1 {
+  text-align: center;
+  font-family: "Shadows Into Light", monospace;
+  color: white;
+  font-size: 85px;
+}
+
+h2 {
+  text-align: left;
+  font-size: 60px;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Shadows Into Light", monospace;
+  font-size: 40px;
+  text-align: left;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+/* #select {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+} */
+
+.T {
+  font-family: "Grape Nuts", monospace;
+  color: white;
+  text-decoration: none;
+}
+
+.S {
+  font-family: "Just Me Again Down Here", monospace;
+  color: white;
+  text-decoration: none;
+}
+
+.J {
+  font-family: "Reenie Beanie", monospace;
+  color: white;
+  text-decoration: none;
+}
+
+.H {
+  font-family: "Neucha", monospace;
+  color: white;
+  text-decoration: none;
+}
+
+.T:hover {
+  border: 3px solid white;
+  text-decoration: none;
+}
+.S:hover {
+  border: 3px solid white;
+  text-decoration: none;
+}
+.J:hover {
+  border: 3px solid white;
+  text-decoration: none;
+}
+.H:hover {
+  border: 3px solid white;
+  text-decoration: none;
+}
+
+
+.instruct {
+  text-align: center;
+/*   margin-left: 50px;
+  margin-right: 50px; */
+  font-family: "Shadows Into Light", monospace;
+}
+
+#imgs {
+/*   border: 1px solid red; */
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px;
+}
+
+#imgs-four {
+/*   border: 1px solid red; */
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 50px;
+}
+
+#profiles {
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+/*   border: 3px solid red; */
+}
+
+.item{
+/*   border: 1px solid blue; */
+  padding: 6px;
+  
+}
+
+.sil {
+  height: auto;
+  width: 20vw;
+  min-width: 150px;
+  max-width: 250px;
+  align-items: center;
+}
+
+.portrait {
+  height: auto;
+  width: 25vw;
+  min-width: 220px;
+  max-width: 360px;
+  border: 3px solid white;
+}
+.profLink{
+  height: auto;
+  width: 20vw;
+  min-width: 150px;
+  max-width: 250px;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+
+.profLink:hover{
+  scale: 1.17;
+  border: 3px solid #ff33cc;
+  transform: rotateZ(-8deg);
+}
+
+span {
+  color: #ff33cc;
+}
+
+.Twrite {
+  font-family: "Grape Nuts", monospace;
+}
+
+.Swrite {
+  font-family: "Just Me Again Down Here", monospace;
+}
+
+.Jwrite {
+  font-family: "Reenie Beanie", monospace;
+}
+
+.Hwrite {
+  font-family: "Neucha", monospace;
+}
+
+a {
+  color: #ff33cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+summary {
+  outline: none;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+#why {
+  text-align: center;
+  font-size: 80px;
+}
+
+.center {
+  text-align: center;
+}
+
+#selfieBox{
+/*   border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  padding: 20px;
+}
+
+.selfie{
+/*   border: 5px solid #ff33cc; */
+  height: auto;
+  width: 80vw;
+  min-width: 400px;
+  max-width: 900px;
+  
+}
+
+canvas {
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: -1;
+  /* border: 3px solid red; */
+}
